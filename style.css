@@ -92,3 +92,20 @@ body
 {
   background:#5c5c5c;
 }
+
+/*media queries*/
+@media screen and (min-width:320px) {
+    .container h1 {
+        font-size: 1.8rem;
+        letter-spacing: 10px;
+    }
+    .countd {
+        width: 55px;
+        height: 55px;
+        margin: 0px 5px;
+    }
+    .countd span {
+        font-size: 14px;
+        margin: auto;
+    }
+}
