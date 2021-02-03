@@ -109,3 +109,33 @@ body
         margin: auto;
     }
 }
+@media screen and (min-width:375px) {
+    .container h1 {
+        font-size: 2rem;
+        letter-spacing: 11px;
+    }
+    .countd {
+        width: 60px;
+        height: 60px;
+        margin: 0px 5px;
+    }
+    .countd span {
+        font-size: 14px;
+        margin: auto;
+    }
+}
+@media screen and (min-width:425px) {
+    .container h1 {
+        font-size: 2.2rem;
+        letter-spacing: 12px;
+    }
+    .countd {
+        width: 65px;
+        height: 65px;
+        margin: 0px 8px;
+    }
+    .countd span {
+        font-size: 16px;
+        margin: auto;
+    }
+}
